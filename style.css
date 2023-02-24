@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    /* border: 1px red dotted; */
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    min-height:1007px;
+}
+
+.main{
+    flex: 1;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 24%;
+}
+
+.startBtn{
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.canvas{
+    flex: 1;
+}
